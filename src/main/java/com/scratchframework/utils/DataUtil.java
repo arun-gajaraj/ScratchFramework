@@ -12,8 +12,11 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.log4testng.Logger;
 
 public class DataUtil {
+	
+	private static final Logger log = Logger.getLogger(DataUtil.class);
 
 	public static void main(String[] args) {
 
@@ -30,6 +33,7 @@ public class DataUtil {
 
 				while (cellIterator.hasNext()) {
 					Cell cell = cellIterator.next();
+					log.debug("A cell has been read");
 
 					if (cell.getCellType().equals(CellType.STRING)) {
 						System.out.println(cell.getStringCellValue());
