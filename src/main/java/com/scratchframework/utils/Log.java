@@ -4,12 +4,12 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.apache.logging.log4j.core.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 
 public class Log {
 
+	@SuppressWarnings("unused")
 	private static String screenShotFolderPath = File.separator + "test-output"+ File.separator + "ScreenShot" + File.separator;
 	private static AtomicInteger screenShotIndex = new AtomicInteger(0);
 
