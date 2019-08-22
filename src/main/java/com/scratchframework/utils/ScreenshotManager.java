@@ -10,10 +10,11 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 
 public class ScreenshotManager {
-	
+
 	private static String screenShotFolderPath;
+	@SuppressWarnings("unused")
 	private static File screens;
-	
+
 	static {
 		File screenShotFolder = new File(Reporter.getCurrentTestResult().getTestContext().getOutputDirectory());
 		screenShotFolderPath = screenShotFolder.getParent() + File.separator + "ScreenShot" + File.separator;
@@ -32,22 +33,18 @@ public class ScreenshotManager {
 			}
 		}
 
-		
 	}
 
 	public static void takeScreenshot(WebDriver driver, String saveAsFileName) throws IOException {
 
-		TakesScreenshot screenShot = ((TakesScreenshot)driver);
+		TakesScreenshot screenShot = ((TakesScreenshot) driver);
 		File file = screenShot.getScreenshotAs(OutputType.FILE);
-		
+
 		File destFile = new File(screenShotFolderPath + saveAsFileName);
 //		destFile.getParentFile().mkdirs();
 		FileUtils.copyFile(file, destFile);
 		file.delete();
-		
-		
+
 	}
-	
-	
 
 }
