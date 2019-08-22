@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content skipped suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.gradle.PersonTest" hash-for-method="webPageWithValidTitle">webPageWithValidTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">org.gradle.PersonTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,10 +128,41 @@
                   <a name="webPageWithValidTitle">
                   </a> <!-- webPageWithValidTitle -->
                   <span class="method-name">webPageWithValidTitle</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ll,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;ca&quot;]},{&quot;name&quot;:&quot;WikipÃ©dia (sk)&quot;,&quot;description&quot;:&quot;WikipÃ©dia, slobodnÃ¡ a otvorenÃ¡ encyklopÃ©dia&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;sk&quot;]},{&quot;name&quot;:&quot;Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ð° (sr)&quot;,&quot;description&quot;:&quot;ÐŸÑ€ÐµÑ‚Ñ€Ð°Ð³Ð° Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ðµ Ð½Ð° Ñ�Ñ€Ð¿Ñ�ÐºÐ¾Ð¼ Ñ˜ÐµÐ·Ð¸ÐºÑƒ&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;sr&quot;]},{&quot;name&quot;:&quot;Wikipedia (ms)&quot;,&quot;description&quot;:&quot;Wikipedia, ensiklopedia bebas&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;ms&quot;]},{&quot;name&quot;:&quot;Wikipedia (af)&quot;,&quot;description&quot;:&quot;Wikipedia, die vrye ensiklopedie&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;af&quot;]},{&quot;name&quot;:&quot;ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ (fa)&quot;,&quot;description&quot;:&quot;ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ØŒ Ø¯Ø§Ù†Ø´Ù†Ø§Ù…Ù‡Ù” Ø¢Ø²Ø§Ø¯&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;fa&quot;]},{&quot;name&quot;:&quot;à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯ (ml)&quot;,&quot;description&quot;:&quot;à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯, à´¸àµ�à´µà´¤à´¨àµ�à´¤àµ�à´° à´¸à´°àµ�â€�à´µàµ�à´µà´µà´¿à´œàµ�à´žà´¾à´¨à´•àµ‹à´¶à´‚ &quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;ml&quot;]},{&quot;name&quot;:&quot;Wikipedia (ia)&quot;,&quot;description&quot;:&quot;Wikipedia, le encyclopedia libere&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;ia&quot;]},{&quot;name&quot;:&quot;Wikipedia (no)&quot;,&quot;description&quot;:&quot;Wikipedia, den frie encyklopedi&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;NO&quot;]},{&quot;name&quot;:&quot;Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ� (ru)&quot;,&quot;description&quot;:&quot;Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ�, Ñ�Ð²Ð¾Ð±Ð¾Ð´Ð½Ð°Ñ� Ñ�Ð½Ñ†Ð¸ÐºÐ»Ð¾Ð¿ÐµÐ´Ð¸Ñ�&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;ru&quot;]},{&quot;name&quot;:&quot;Wikipedia (br)&quot;,&quot;description&quot;:&quot;Wikipedia, an holloueziadur digor&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;br&quot;]},{&quot;name&quot;:&quot;Wikipedia (pl)&quot;,&quot;description&quot;:&quot;Wikipedia, wolna encyklopedia&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;pl&quot;]},{&quot;name&quot;:&quot;Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ� (be-tarask)&quot;,&quot;description&quot;:&quot;Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ�, Ð²Ð¾Ð»ÑŒÐ½Ð°Ñ� Ñ�Ð½Ñ†Ñ‹ÐºÐ»Ñ�Ð¿Ñ�Ð´Ñ‹Ñ�&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;be-tarask&quot;]},{&quot;name&quot;:&quot;Wikipedia (sv)&quot;,&quot;description&quot;:&quot;Wikipedia, den fria encyklopedin&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;sv-SE&quot;]},{&quot;name&quot;:&quot;Wikipedija (sl)&quot;,&quot;description&quot;:&quot;Wikipedija, prosta enciklopedija&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;sl&quot;]},{&quot;name&quot;:&quot;VikipÄ“dija&quot;,&quot;description&quot;:&quot;VikipÄ“dija, brÄ«vÄ� enciklopÄ“dija&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;lv&quot;]},{&quot;name&quot;:&quot;àº§àº´àº�àº´àºžàºµà»€àº”àº� (lo)&quot;,&quot;description&quot;:&quot;àº§àº´àº�àº´àºžàºµà»€àº”àº�, àºªàº²àº¥àº²àº™àº¸àº�àº»àº¡à»€àºªàº¥àºµ&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;lo&quot;]},{&quot;name&quot;:&quot;Biquipedia (an)&quot;,&quot;description&quot;:&quot;A enciclopedia Libre&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;an&quot;]}],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:null,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;incognito&quot;:&quot;spanning&quot;,&quot;userPermissions&quot;:{&quot;permissions&quot;:[],&quot;origins&quot;:[]},&quot;icons&quot;:{&quot;16&quot;:&quot;favicon.ico&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;recommendationState&quot;:null,&quot;rootURI&quot;:&quot;resource://search-extensions/wikipedia/&quot;,&quot;location&quot;:&quot;app-builtin&quot;}
+1566457317448	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+[Parent 1828, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;ASPIRENAV497&apos;, ip: &apos;172.16.166.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at com.scratchframework.utils.WebDriverFactory.getBrowserInstance(WebDriverFactory.java:27)
+	at com.scratchframework.utils.WebDriverFactory.getBrowserInstance(WebDriverFactory.java:39)
+	at com.scratchframework.testscripts.TestBaseClass.intiDriver(TestBaseClass.java:23)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ll,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;ca&quot;]},{&quot;name&quot;:&quot;WikipÃ©dia (sk)&quot;,&quot;description&quot;:&quot;WikipÃ©dia, slobodnÃ¡ a otvorenÃ¡ encyklopÃ©dia&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;sk&quot;]},{&quot;name&quot;:&quot;Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ð° (sr)&quot;,&quot;description&quot;:&quot;ÐŸÑ€ÐµÑ‚Ñ€Ð°Ð³Ð° Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ðµ Ð½Ð° Ñ�Ñ€Ð¿Ñ�ÐºÐ¾Ð¼ Ñ˜ÐµÐ·Ð¸ÐºÑƒ&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;sr&quot;]},{&quot;name&quot;:&quot;Wikipedia (ms)&quot;,&quot;description&quot;:&quot;Wikipedia, ensiklopedia bebas&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;ms&quot;]},{&quot;name&quot;:&quot;Wikipedia (af)&quot;,&quot;description&quot;:&quot;Wikipedia, die vrye ensiklopedie&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;af&quot;]},{&quot;name&quot;:&quot;ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ (fa)&quot;,&quot;description&quot;:&quot;ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ØŒ Ø¯Ø§Ù†Ø´Ù†Ø§Ù…Ù‡Ù” Ø¢Ø²Ø§Ø¯&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;fa&quot;]},{&quot;name&quot;:&quot;à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯ (ml)&quot;,&quot;description&quot;:&quot;à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯, à´¸àµ�à´µà´¤à´¨àµ�à´¤àµ�à´° à´¸à´°àµ�â€�à´µàµ�à´µà´µà´¿à´œàµ�à´žà´¾à´¨à´•àµ‹à´¶à´‚ &quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;ml&quot;]},{&quot;name&quot;:&quot;Wikipedia (ia)&quot;,&quot;description&quot;:&quot;Wikipedia, le encyclopedia libere&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;ia&quot;]},{&quot;name&quot;:&quot;Wikipedia (no)&quot;,&quot;description&quot;:&quot;Wikipedia, den frie encyklopedi&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;NO&quot;]},{&quot;name&quot;:&quot;Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ� (ru)&quot;,&quot;description&quot;:&quot;Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ�, Ñ�Ð²Ð¾Ð±Ð¾Ð´Ð½Ð°Ñ� Ñ�Ð½Ñ†Ð¸ÐºÐ»Ð¾Ð¿ÐµÐ´Ð¸Ñ�&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;ru&quot;]},{&quot;name&quot;:&quot;Wikipedia (br)&quot;,&quot;description&quot;:&quot;Wikipedia, an holloueziadur digor&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;br&quot;]},{&quot;name&quot;:&quot;Wikipedia (pl)&quot;,&quot;description&quot;:&quot;Wikipedia, wolna encyklopedia&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;pl&quot;]},{&quot;name&quot;:&quot;Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ� (be-tarask)&quot;,&quot;description&quot;:&quot;Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ�, Ð²Ð¾Ð»ÑŒÐ½Ð°Ñ� Ñ�Ð½Ñ†Ñ‹ÐºÐ»Ñ�Ð¿Ñ�Ð´Ñ‹Ñ�&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;be-tarask&quot;]},{&quot;name&quot;:&quot;Wikipedia (sv)&quot;,&quot;description&quot;:&quot;Wikipedia, den fria encyklopedin&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;sv-SE&quot;]},{&quot;name&quot;:&quot;Wikipedija (sl)&quot;,&quot;description&quot;:&quot;Wikipedija, prosta enciklopedija&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;sl&quot;]},{&quot;name&quot;:&quot;VikipÄ“dija&quot;,&quot;description&quot;:&quot;VikipÄ“dija, brÄ«vÄ� enciklopÄ“dija&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;lv&quot;]},{&quot;name&quot;:&quot;àº§àº´àº�àº´àºžàºµà»€àº”àº� (lo)&quot;,&quot;description&quot;:&quot;àº§àº´àº�àº´àºžàºµà»€àº”àº�, àºªàº²àº¥àº²àº™àº¸àº�àº»àº¡à»€àºªàº¥àºµ&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;lo&quot;]},{&quot;name&quot;:&quot;Biquipedia (an)&quot;,&quot;description&quot;:&quot;A enciclopedia Libre&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;an&quot;]}],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:null,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;incognito&quot;:&quot;spanning&quot;,&quot;userPermissions&quot;:{&quot;permissions&quot;:[],&quot;origins&quot;:[]},&quot;icons&quot;:{&quot;16&quot;:&quot;favicon.ico&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;recommendationState&quot;:null,&quot;rootURI&quot;:&quot;resource://search-extensions/wikipedia/&quot;,&quot;location&quot;:&quot;app-builtin&quot;}
+1566457317448	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+[Parent 1828, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 36 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -142,7 +173,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
   &lt;parameter name=&quot;hubHost&quot; value=&quot;local&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
@@ -190,12 +221,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'webPageWithValidTitle')
 data.setCell(0, 2, 'org.gradle.PersonTest')
-data.setCell(0, 3, 210695);
+data.setCell(0, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -206,12 +237,6 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">webPageWithValidTitle</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Done<a href = D:\Workspace3\ScratchFramework\test-output\Screenshot\webPageWithValidTitle_0.png> [Screenshot] </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -228,22 +253,12 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">org.gradle.PersonTest</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">initTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">initDriver</span>
-                <span class="method-start">20 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">intiDriver</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">webPageWithValidTitle</span>
-                <span class="method-start">6755 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver</span>
-                <span class="method-start">217451 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

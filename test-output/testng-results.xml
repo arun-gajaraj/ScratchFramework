@@ -1,34 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Done<a href = D:\Workspace3\ScratchFramework\test-output\Screenshot\webPageWithValidTitle_0.png> [Screenshot] </a>]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="218562" started-at="2019-08-22T08:53:40Z" finished-at="2019-08-22T08:57:18Z">
+  <suite name="Suite" duration-ms="32330776" started-at="2019-08-22T07:01:39Z" finished-at="2019-08-22T16:00:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="218562" started-at="2019-08-22T08:53:40Z" finished-at="2019-08-22T08:57:18Z">
+    <test name="Test" duration-ms="32330776" started-at="2019-08-22T07:01:39Z" finished-at="2019-08-22T16:00:30Z">
       <class name="org.gradle.PersonTest">
-        <test-method status="PASS" signature="initTest()[pri:0, instance:org.gradle.PersonTest@15c43bd9]" name="initTest" is-config="true" duration-ms="8" started-at="2019-08-22T14:23:40Z" finished-at="2019-08-22T14:23:40Z">
+        <test-method status="FAIL" signature="intiDriver()[pri:0, instance:org.gradle.PersonTest@28d25987]" name="intiDriver" is-config="true" duration-ms="32330724" started-at="2019-08-22T12:31:39Z" finished-at="2019-08-22T21:30:30Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ll,"contributors":null,"locales":["ca"]},{"name":"WikipÃ©dia (sk)","description":"WikipÃ©dia, slobodnÃ¡ a otvorenÃ¡ encyklopÃ©dia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sk"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ð° (sr)","description":"ÐŸÑ€ÐµÑ‚Ñ€Ð°Ð³Ð° Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ðµ Ð½Ð° Ñ�Ñ€Ð¿Ñ�ÐºÐ¾Ð¼ Ñ˜ÐµÐ·Ð¸ÐºÑƒ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sr"]},{"name":"Wikipedia (ms)","description":"Wikipedia, ensiklopedia bebas","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ms"]},{"name":"Wikipedia (af)","description":"Wikipedia, die vrye ensiklopedie","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["af"]},{"name":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ (fa)","description":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ØŒ Ø¯Ø§Ù†Ø´Ù†Ø§Ù…Ù‡Ù” Ø¢Ø²Ø§Ø¯","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["fa"]},{"name":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯ (ml)","description":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯, à´¸àµ�à´µà´¤à´¨àµ�à´¤àµ�à´° à´¸à´°àµ�â€�à´µàµ�à´µà´µà´¿à´œàµ�à´žà´¾à´¨à´•àµ‹à´¶à´‚ ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ml"]},{"name":"Wikipedia (ia)","description":"Wikipedia, le encyclopedia libere","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ia"]},{"name":"Wikipedia (no)","description":"Wikipedia, den frie encyklopedi","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["NO"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ� (ru)","description":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ�, Ñ�Ð²Ð¾Ð±Ð¾Ð´Ð½Ð°Ñ� Ñ�Ð½Ñ†Ð¸ÐºÐ»Ð¾Ð¿ÐµÐ´Ð¸Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"Wikipedia (br)","description":"Wikipedia, an holloueziadur digor","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["br"]},{"name":"Wikipedia (pl)","description":"Wikipedia, wolna encyklopedia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["pl"]},{"name":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ� (be-tarask)","description":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ�, Ð²Ð¾Ð»ÑŒÐ½Ð°Ñ� Ñ�Ð½Ñ†Ñ‹ÐºÐ»Ñ�Ð¿Ñ�Ð´Ñ‹Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Wikipedia (sv)","description":"Wikipedia, den fria encyklopedin","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sv-SE"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"VikipÄ“dija","description":"VikipÄ“dija, brÄ«vÄ� enciklopÄ“dija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"àº§àº´àº�àº´àºžàºµà»€àº”àº� (lo)","description":"àº§àº´àº�àº´àºžàºµà»€àº”àº�, àºªàº²àº¥àº²àº™àº¸àº�àº»àº¡à»€àºªàº¥àºµ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1566457317448	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+[Parent 1828, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'ASPIRENAV497', ip: '172.16.166.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ll,"contributors":null,"locales":["ca"]},{"name":"WikipÃ©dia (sk)","description":"WikipÃ©dia, slobodnÃ¡ a otvorenÃ¡ encyklopÃ©dia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sk"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ð° (sr)","description":"ÐŸÑ€ÐµÑ‚Ñ€Ð°Ð³Ð° Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ðµ Ð½Ð° Ñ�Ñ€Ð¿Ñ�ÐºÐ¾Ð¼ Ñ˜ÐµÐ·Ð¸ÐºÑƒ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sr"]},{"name":"Wikipedia (ms)","description":"Wikipedia, ensiklopedia bebas","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ms"]},{"name":"Wikipedia (af)","description":"Wikipedia, die vrye ensiklopedie","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["af"]},{"name":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ (fa)","description":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ØŒ Ø¯Ø§Ù†Ø´Ù†Ø§Ù…Ù‡Ù” Ø¢Ø²Ø§Ø¯","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["fa"]},{"name":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯ (ml)","description":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯, à´¸àµ�à´µà´¤à´¨àµ�à´¤àµ�à´° à´¸à´°àµ�â€�à´µàµ�à´µà´µà´¿à´œàµ�à´žà´¾à´¨à´•àµ‹à´¶à´‚ ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ml"]},{"name":"Wikipedia (ia)","description":"Wikipedia, le encyclopedia libere","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ia"]},{"name":"Wikipedia (no)","description":"Wikipedia, den frie encyklopedi","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["NO"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ� (ru)","description":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ�, Ñ�Ð²Ð¾Ð±Ð¾Ð´Ð½Ð°Ñ� Ñ�Ð½Ñ†Ð¸ÐºÐ»Ð¾Ð¿ÐµÐ´Ð¸Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"Wikipedia (br)","description":"Wikipedia, an holloueziadur digor","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["br"]},{"name":"Wikipedia (pl)","description":"Wikipedia, wolna encyklopedia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["pl"]},{"name":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ� (be-tarask)","description":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ�, Ð²Ð¾Ð»ÑŒÐ½Ð°Ñ� Ñ�Ð½Ñ†Ñ‹ÐºÐ»Ñ�Ð¿Ñ�Ð´Ñ‹Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Wikipedia (sv)","description":"Wikipedia, den fria encyklopedin","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sv-SE"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"VikipÄ“dija","description":"VikipÄ“dija, brÄ«vÄ� enciklopÄ“dija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"àº§àº´àº�àº´àºžàºµà»€àº”àº� (lo)","description":"àº§àº´àº�àº´àºžàºµà»€àº”àº�, àºªàº²àº¥àº²àº™àº¸àº�àº»àº¡à»€àºªàº¥àºµ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1566457317448	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+[Parent 1828, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'ASPIRENAV497', ip: '172.16.166.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at com.scratchframework.utils.WebDriverFactory.getBrowserInstance(WebDriverFactory.java:27)
+	at com.scratchframework.utils.WebDriverFactory.getBrowserInstance(WebDriverFactory.java:39)
+	at com.scratchframework.testscripts.TestBaseClass.intiDriver(TestBaseClass.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ll,"contributors":null,"locales":["ca"]},{"name":"WikipÃ©dia (sk)","description":"WikipÃ©dia, slobodnÃ¡ a otvorenÃ¡ encyklopÃ©dia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sk"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ð° (sr)","description":"ÐŸÑ€ÐµÑ‚Ñ€Ð°Ð³Ð° Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ðµ Ð½Ð° Ñ�Ñ€Ð¿Ñ�ÐºÐ¾Ð¼ Ñ˜ÐµÐ·Ð¸ÐºÑƒ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sr"]},{"name":"Wikipedia (ms)","description":"Wikipedia, ensiklopedia bebas","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ms"]},{"name":"Wikipedia (af)","description":"Wikipedia, die vrye ensiklopedie","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["af"]},{"name":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ (fa)","description":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ØŒ Ø¯Ø§Ù†Ø´Ù†Ø§Ù…Ù‡Ù” Ø¢Ø²Ø§Ø¯","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["fa"]},{"name":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯ (ml)","description":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯, à´¸àµ�à´µà´¤à´¨àµ�à´¤àµ�à´° à´¸à´°àµ�â€�à´µàµ�à´µà´µà´¿à´œàµ�à´žà´¾à´¨à´•àµ‹à´¶à´‚ ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ml"]},{"name":"Wikipedia (ia)","description":"Wikipedia, le encyclopedia libere","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ia"]},{"name":"Wikipedia (no)","description":"Wikipedia, den frie encyklopedi","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["NO"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ� (ru)","description":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ�, Ñ�Ð²Ð¾Ð±Ð¾Ð´Ð½Ð°Ñ� Ñ�Ð½Ñ†Ð¸ÐºÐ»Ð¾Ð¿ÐµÐ´Ð¸Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"Wikipedia (br)","description":"Wikipedia, an holloueziadur digor","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["br"]},{"name":"Wikipedia (pl)","description":"Wikipedia, wolna encyklopedia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["pl"]},{"name":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ� (be-tarask)","description":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ�, Ð²Ð¾Ð»ÑŒÐ½Ð°Ñ� Ñ�Ð½Ñ†Ñ‹ÐºÐ»Ñ�Ð¿Ñ�Ð´Ñ‹Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Wikipedia (sv)","description":"Wikipedia, den fria encyklopedin","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sv-SE"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"VikipÄ“dija","description":"VikipÄ“dija, brÄ«vÄ� enciklopÄ“dija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"àº§àº´àº�àº´àºžàºµà»€àº”àº� (lo)","description":"àº§àº´àº�àº´àºžàºµà»€àº”àº�, àºªàº²àº¥àº²àº™àº¸àº�àº»àº¡à»€àºªàº¥àºµ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1566457317448	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+[Parent 1828, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 36 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initTest -->
-        <test-method status="PASS" signature="initDriver()[pri:0, instance:org.gradle.PersonTest@15c43bd9]" name="initDriver" is-config="true" duration-ms="6735" started-at="2019-08-22T14:23:40Z" finished-at="2019-08-22T14:23:46Z">
+        </test-method> <!-- intiDriver -->
+        <test-method status="SKIP" signature="webPageWithValidTitle()[pri:0, instance:org.gradle.PersonTest@28d25987]" name="webPageWithValidTitle" duration-ms="0" started-at="2019-08-22T21:30:30Z" finished-at="2019-08-22T21:30:30Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ll,"contributors":null,"locales":["ca"]},{"name":"WikipÃ©dia (sk)","description":"WikipÃ©dia, slobodnÃ¡ a otvorenÃ¡ encyklopÃ©dia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sk"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ð° (sr)","description":"ÐŸÑ€ÐµÑ‚Ñ€Ð°Ð³Ð° Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ðµ Ð½Ð° Ñ�Ñ€Ð¿Ñ�ÐºÐ¾Ð¼ Ñ˜ÐµÐ·Ð¸ÐºÑƒ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sr"]},{"name":"Wikipedia (ms)","description":"Wikipedia, ensiklopedia bebas","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ms"]},{"name":"Wikipedia (af)","description":"Wikipedia, die vrye ensiklopedie","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["af"]},{"name":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ (fa)","description":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ØŒ Ø¯Ø§Ù†Ø´Ù†Ø§Ù…Ù‡Ù” Ø¢Ø²Ø§Ø¯","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["fa"]},{"name":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯ (ml)","description":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯, à´¸àµ�à´µà´¤à´¨àµ�à´¤àµ�à´° à´¸à´°àµ�â€�à´µàµ�à´µà´µà´¿à´œàµ�à´žà´¾à´¨à´•àµ‹à´¶à´‚ ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ml"]},{"name":"Wikipedia (ia)","description":"Wikipedia, le encyclopedia libere","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ia"]},{"name":"Wikipedia (no)","description":"Wikipedia, den frie encyklopedi","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["NO"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ� (ru)","description":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ�, Ñ�Ð²Ð¾Ð±Ð¾Ð´Ð½Ð°Ñ� Ñ�Ð½Ñ†Ð¸ÐºÐ»Ð¾Ð¿ÐµÐ´Ð¸Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"Wikipedia (br)","description":"Wikipedia, an holloueziadur digor","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["br"]},{"name":"Wikipedia (pl)","description":"Wikipedia, wolna encyklopedia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["pl"]},{"name":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ� (be-tarask)","description":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ�, Ð²Ð¾Ð»ÑŒÐ½Ð°Ñ� Ñ�Ð½Ñ†Ñ‹ÐºÐ»Ñ�Ð¿Ñ�Ð´Ñ‹Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Wikipedia (sv)","description":"Wikipedia, den fria encyklopedin","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sv-SE"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"VikipÄ“dija","description":"VikipÄ“dija, brÄ«vÄ� enciklopÄ“dija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"àº§àº´àº�àº´àºžàºµà»€àº”àº� (lo)","description":"àº§àº´àº�àº´àºžàºµà»€àº”àº�, àºªàº²àº¥àº²àº™àº¸àº�àº»àº¡à»€àºªàº¥àºµ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1566457317448	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+[Parent 1828, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'ASPIRENAV497', ip: '172.16.166.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ll,"contributors":null,"locales":["ca"]},{"name":"WikipÃ©dia (sk)","description":"WikipÃ©dia, slobodnÃ¡ a otvorenÃ¡ encyklopÃ©dia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sk"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ð° (sr)","description":"ÐŸÑ€ÐµÑ‚Ñ€Ð°Ð³Ð° Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ðµ Ð½Ð° Ñ�Ñ€Ð¿Ñ�ÐºÐ¾Ð¼ Ñ˜ÐµÐ·Ð¸ÐºÑƒ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sr"]},{"name":"Wikipedia (ms)","description":"Wikipedia, ensiklopedia bebas","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ms"]},{"name":"Wikipedia (af)","description":"Wikipedia, die vrye ensiklopedie","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["af"]},{"name":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ (fa)","description":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ØŒ Ø¯Ø§Ù†Ø´Ù†Ø§Ù…Ù‡Ù” Ø¢Ø²Ø§Ø¯","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["fa"]},{"name":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯ (ml)","description":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯, à´¸àµ�à´µà´¤à´¨àµ�à´¤àµ�à´° à´¸à´°àµ�â€�à´µàµ�à´µà´µà´¿à´œàµ�à´žà´¾à´¨à´•àµ‹à´¶à´‚ ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ml"]},{"name":"Wikipedia (ia)","description":"Wikipedia, le encyclopedia libere","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ia"]},{"name":"Wikipedia (no)","description":"Wikipedia, den frie encyklopedi","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["NO"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ� (ru)","description":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ�, Ñ�Ð²Ð¾Ð±Ð¾Ð´Ð½Ð°Ñ� Ñ�Ð½Ñ†Ð¸ÐºÐ»Ð¾Ð¿ÐµÐ´Ð¸Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"Wikipedia (br)","description":"Wikipedia, an holloueziadur digor","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["br"]},{"name":"Wikipedia (pl)","description":"Wikipedia, wolna encyklopedia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["pl"]},{"name":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ� (be-tarask)","description":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ�, Ð²Ð¾Ð»ÑŒÐ½Ð°Ñ� Ñ�Ð½Ñ†Ñ‹ÐºÐ»Ñ�Ð¿Ñ�Ð´Ñ‹Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Wikipedia (sv)","description":"Wikipedia, den fria encyklopedin","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sv-SE"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"VikipÄ“dija","description":"VikipÄ“dija, brÄ«vÄ� enciklopÄ“dija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"àº§àº´àº�àº´àºžàºµà»€àº”àº� (lo)","description":"àº§àº´àº�àº´àºžàºµà»€àº”àº�, àºªàº²àº¥àº²àº™àº¸àº�àº»àº¡à»€àºªàº¥àºµ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1566457317448	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+[Parent 1828, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'ASPIRENAV497', ip: '172.16.166.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at com.scratchframework.utils.WebDriverFactory.getBrowserInstance(WebDriverFactory.java:27)
+	at com.scratchframework.utils.WebDriverFactory.getBrowserInstance(WebDriverFactory.java:39)
+	at com.scratchframework.testscripts.TestBaseClass.intiDriver(TestBaseClass.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ll,"contributors":null,"locales":["ca"]},{"name":"WikipÃ©dia (sk)","description":"WikipÃ©dia, slobodnÃ¡ a otvorenÃ¡ encyklopÃ©dia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sk"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ð° (sr)","description":"ÐŸÑ€ÐµÑ‚Ñ€Ð°Ð³Ð° Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ˜Ðµ Ð½Ð° Ñ�Ñ€Ð¿Ñ�ÐºÐ¾Ð¼ Ñ˜ÐµÐ·Ð¸ÐºÑƒ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sr"]},{"name":"Wikipedia (ms)","description":"Wikipedia, ensiklopedia bebas","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ms"]},{"name":"Wikipedia (af)","description":"Wikipedia, die vrye ensiklopedie","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["af"]},{"name":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ (fa)","description":"ÙˆÛŒÚ©ÛŒâ€ŒÙ¾Ø¯ÛŒØ§ØŒ Ø¯Ø§Ù†Ø´Ù†Ø§Ù…Ù‡Ù” Ø¢Ø²Ø§Ø¯","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["fa"]},{"name":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯ (ml)","description":"à´µà´¿à´•àµ�à´•à´¿à´ªàµ€à´¡à´¿à´¯, à´¸àµ�à´µà´¤à´¨àµ�à´¤àµ�à´° à´¸à´°àµ�â€�à´µàµ�à´µà´µà´¿à´œàµ�à´žà´¾à´¨à´•àµ‹à´¶à´‚ ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ml"]},{"name":"Wikipedia (ia)","description":"Wikipedia, le encyclopedia libere","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ia"]},{"name":"Wikipedia (no)","description":"Wikipedia, den frie encyklopedi","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["NO"]},{"name":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ� (ru)","description":"Ð’Ð¸ÐºÐ¸Ð¿ÐµÐ´Ð¸Ñ�, Ñ�Ð²Ð¾Ð±Ð¾Ð´Ð½Ð°Ñ� Ñ�Ð½Ñ†Ð¸ÐºÐ»Ð¾Ð¿ÐµÐ´Ð¸Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"Wikipedia (br)","description":"Wikipedia, an holloueziadur digor","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["br"]},{"name":"Wikipedia (pl)","description":"Wikipedia, wolna encyklopedia","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["pl"]},{"name":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ� (be-tarask)","description":"Ð’Ñ–ÐºÑ–Ð¿Ñ�Ð´Ñ‹Ñ�, Ð²Ð¾Ð»ÑŒÐ½Ð°Ñ� Ñ�Ð½Ñ†Ñ‹ÐºÐ»Ñ�Ð¿Ñ�Ð´Ñ‹Ñ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Wikipedia (sv)","description":"Wikipedia, den fria encyklopedin","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sv-SE"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"VikipÄ“dija","description":"VikipÄ“dija, brÄ«vÄ� enciklopÄ“dija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"àº§àº´àº�àº´àºžàºµà»€àº”àº� (lo)","description":"àº§àº´àº�àº´àºžàºµà»€àº”àº�, àºªàº²àº¥àº²àº™àº¸àº�àº»àº¡à»€àºªàº¥àºµ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1566457317448	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1566457317448	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+[Parent 1828, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 36 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="webPageWithValidTitle()[pri:0, instance:org.gradle.PersonTest@15c43bd9]" name="webPageWithValidTitle" duration-ms="210695" started-at="2019-08-22T14:23:46Z" finished-at="2019-08-22T14:27:17Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Done<a href = D:\Workspace3\ScratchFramework\test-output\Screenshot\webPageWithValidTitle_0.png> [Screenshot] </a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- webPageWithValidTitle -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:org.gradle.PersonTest@15c43bd9]" name="closeDriver" is-config="true" duration-ms="1119" started-at="2019-08-22T14:27:17Z" finished-at="2019-08-22T14:27:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
       </class> <!-- org.gradle.PersonTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
